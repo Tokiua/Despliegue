@@ -1,0 +1,12 @@
+{
+    "funtions": {
+        "api/index.php":
+            {"runtien": "vercel.7.1"}
+    },
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/api/index.php"
+        }
+    ]
+}
